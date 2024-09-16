@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badwater Basin to Whitney Adventure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .map, .weather, .packing, .contact {
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Badwater Basin to Whitney Adventure</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#itinerary">Itinerary</a>
+    <a href="#weather">Weather & Packing</a>
+    <a href="#maps">Maps</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>Overview</h2>
+    <p>Join us on an epic adventure from the lowest point in North America, Badwater Basin, to the highest, Mount Whitney. This two-day journey combines a grueling bike ride and a challenging hike, taking us from the depths of Death Valley to the heights of the Sierra Nevada.</p>
+</div>
+
+<div class="container" id="itinerary">
+    <h2>Itinerary</h2>
+    <h3>Day 1: October 19 - Bike Ride</h3>
+    <p>Start early morning at Badwater Basin and ride approximately 135 miles to Whitney Portal, gaining around 14,600 feet in elevation.</p>
+    
+    <h3>Day 2: October 20 - Hike</h3>
+    <p>Hike the regular trail to Mount Whitney's summit, covering 22 miles round trip with an elevation gain of 6,200 feet.</p>
+</div>
+
+<div class="container" id="weather">
+    <h2>Weather & Packing</h2>
+    <div class="weather">
+        <h3>Weather Forecast</h3>
+        <p><strong>Death Valley:</strong> Early morning 55–65°F, Late morning 70–80°F.</p>
+        <p><strong>Mount Whitney:</strong> Early morning 15–40°F (varies by elevation), expect colder temperatures at higher altitudes.</p>
+    </div>
+    <div class="packing">
+        <h3>Packing List</h3>
+        <ul>
+            <li>Bike gear: Helmet, repair kit, lights</li>
+            <li>Hiking gear: Boots, trekking poles, layers</li>
+            <li>Food & Water: 3-4 liters of water, high-calorie snacks</li>
+            <li>Safety: First aid kit, emergency blanket</li>
+        </ul>
+    </div>
+</div>
+
+<div class="container" id="maps">
+    <h2>Maps</h2>
+    <p>Route maps for the bike ride and hike can be found here:</p>
+    <ul>
+        <li><a href="https://www.strava.com/routes/3267630041678130002" target="_blank">Bike Ride Map (Badwater Basin to Whitney Portal)</a></li>
+        <li><a href="https://www.alltrails.com/trail/us/california/mount-whitney-via-mount-whitney-trail" target="_blank">Hike Map (Whitney Portal to Summit)</a></li>
+    </ul>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact & Participants</h2>
+    <p>For more information or to join the trip, please contact the organizer.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Badwater to Whitney Adventure</p>
+</footer>
+
+</body>
+</html>
